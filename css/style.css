@@ -12,6 +12,8 @@ a:hover {
     color: #00B1B9;
 }
 
+h1 {}
+
 .btn-blue {
     background-color: #00B1B9;
     color: #ffffff;
@@ -22,6 +24,22 @@ a:hover {
 .btn-blue:hover {
     background-color: #29295F;
     color: #ffffff;
+}
+
+.btn-2 {
+    background-color: #29295F;
+    color: #ffffff;
+    transition: background-color .3s ease,
+        color .3s ease;
+}
+
+.btn-2:hover {
+    background-color: #00B1B9;
+    color: #ffffff;
+}
+
+.btn-3 {
+    color: #29295F;
 }
 
 /********************************************
@@ -38,4 +56,50 @@ a:hover {
     font-size: 30px;
 }
 
-bar-chart {}
+/********************************************
+ Intro Section
+*********************************************/
+
+.intro__banner {
+    background-color: rgba(0, 177, 185, 0.1);
+    padding: 100px 100px;
+}
+
+.carousel-text {
+    width: 40%;
+    color: #29295F;
+}
+
+.carousel-suptitle {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.carousel-title {
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.carousel-title .blue {
+    color: #00B1B9;
+}
+
+.intro .carousel-control-prev {
+    width: 5%;
+    left: -5%;
+    color: #03658C;
+}
+
+.intro .carousel-control-next {
+    width: 5%;
+    right: -5%;
+    color: #03658C;
+}
+
+.carousel-photo {
+    position: absolute;
+    bottom: -35%;
+    right: -10%;
+}
