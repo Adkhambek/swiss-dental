@@ -1,3 +1,41 @@
 body {
     font-family: 'Futura', serif;
+    font-size: 20px;
 }
+
+a {
+    color: #29295F;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #00B1B9;
+}
+
+.btn-blue {
+    background-color: #00B1B9;
+    color: #ffffff;
+    transition: background-color .3s ease,
+        color .3s ease;
+}
+
+.btn-blue:hover {
+    background-color: #29295F;
+    color: #ffffff;
+}
+
+/********************************************
+ Nav Section
+*********************************************/
+
+
+.nav-border {
+    border-bottom: 1px solid rgba(0, 177, 185, 0.2);
+}
+
+.navbar-toggler span {
+    color: #00B1B9 !important;
+    font-size: 30px;
+}
+
+bar-chart {}
