@@ -53,7 +53,26 @@ h1 {
 /********************************************
  Nav Section
 *********************************************/
+.navbar_top .nav-link:hover {
+    color: inherit;
+}
 
+.navbar_top .dropdown-menu {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    background-color: #00B1B9;
+}
+
+.navbar_top .dropdown-item {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar_top .dropdown-item:hover {
+    background-color: #29295F;
+}
 
 .nav-border {
     border-bottom: 1px solid rgba(0, 177, 185, 0.2);
